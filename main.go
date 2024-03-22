@@ -3,7 +3,7 @@
 //  2. List its values using iota.
 //  3. Give the type a String function.
 //
-// Based on yourbasic.org/golang/iota.
+// Based on https://yourbasic.org/golang/iota.
 package main
 
 import (
