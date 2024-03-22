@@ -26,7 +26,7 @@ func (d Direction) String() string {
 }
 
 func main() {
-	d := Direction(rand.Intn(3))
+	d := Direction(rand.Intn(4))
 	fmt.Print(d)
 	switch d {
 	case North:
