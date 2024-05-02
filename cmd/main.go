@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"direction"
+	"github.com/gokatas/direction"
 )
 
 func main() {
