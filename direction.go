@@ -17,6 +17,6 @@ const (
 	West
 )
 
-func (d Cardinal) String() string {
-	return [...]string{"North", "South", "East", "West"}[d]
+func (c Cardinal) String() string {
+	return [...]string{"North", "South", "East", "West"}[c]
 }
