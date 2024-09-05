@@ -8,9 +8,9 @@ import (
 )
 
 func main() {
-	d := direction.Cardinal(rand.Intn(4))
-	fmt.Print(d)
-	switch d {
+	cardinal := direction.Cardinal(rand.Intn(3))
+	fmt.Print(cardinal)
+	switch cardinal {
 	case direction.North:
 		fmt.Println(" goes up.")
 	case direction.South:
